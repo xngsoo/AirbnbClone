@@ -16,6 +16,7 @@
 		F39CA26D2BCE42510056013B /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CA26C2BCE42510056013B /* SearchAndFilterBar.swift */; };
 		F39CA26F2BCE46180056013B /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CA26E2BCE46180056013B /* ListingDetailView.swift */; };
 		F39CA2722BCE469C0056013B /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CA2712BCE469C0056013B /* ListingImageCarouselView.swift */; };
+		F39CA2742BCE60440056013B /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CA2732BCE60440056013B /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		F39CA26C2BCE42510056013B /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		F39CA26E2BCE46180056013B /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		F39CA2712BCE469C0056013B /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		F39CA2732BCE60440056013B /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				F39CA2682BCE2E220056013B /* ExploreView.swift */,
 				F39CA26C2BCE42510056013B /* SearchAndFilterBar.swift */,
+				F39CA2732BCE60440056013B /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F39CA2722BCE469C0056013B /* ListingImageCarouselView.swift in Sources */,
+				F39CA2742BCE60440056013B /* DestinationSearchView.swift in Sources */,
 				F39CA2512BCE2CC10056013B /* ContentView.swift in Sources */,
 				F39CA26B2BCE34DF0056013B /* ListingItemView.swift in Sources */,
 				F39CA2692BCE2E220056013B /* ExploreView.swift in Sources */,
