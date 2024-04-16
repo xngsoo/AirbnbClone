@@ -15,6 +15,7 @@ struct ListingItemView: View {
         "listing - 3",
         "listing - 4",
     ]
+    
     var body: some View {
         VStack(spacing: 8) {
             
@@ -23,7 +24,7 @@ struct ListingItemView: View {
                 ForEach(images, id: \.self) { image in
                     Image(image)
                         .resizable()
-                        .scaledToFit()
+                        .scaledToFill()
                 }
             }
             .frame(height: 320)
