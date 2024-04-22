@@ -50,7 +50,7 @@ struct ListingDetailView: View {
                     HStack(spacing: 2) {
                         Image(systemName: "star.fill")
                         
-                        Text("\(listing.rating)")
+                        Text("4.5")
                         
                         Text(" - ")
                         
@@ -87,7 +87,7 @@ struct ListingDetailView: View {
                 Spacer()
                 
                 // profile image
-                Image("\(listing.owenerImageUrl)")
+                Image("\(listing.ownerImageUrl)")
                     .resizable()
                     .scaledToFill()
                     .frame(width: 64, height: 64)

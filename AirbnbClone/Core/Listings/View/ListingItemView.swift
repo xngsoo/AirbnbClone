@@ -46,7 +46,7 @@ struct ListingItemView: View {
                 HStack(spacing: 2) {
                     Image(systemName: "star.fill")
                     
-                    Text("\(listing.rating)")
+                    Text("4.5")
                 }
                 .foregroundStyle(.black)
             }

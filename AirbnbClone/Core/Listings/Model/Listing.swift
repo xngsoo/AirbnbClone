@@ -8,33 +8,29 @@
 import Foundation
 
 struct Listing: Identifiable, Codable, Hashable {
-    let id: String
+    var id = NSUUID().uuidString
     let ownerUid: String
     let ownerName: String
-    let owenerImageUrl: String
-
+    let ownerImageUrl: String
     let numberOfBedrooms: Int
     let numberOfBathrooms: Int
     let numberOfGuests: Int
-    let numberOfBeds: Int
     var pricePerNight: Int
+    let numberOfBeds: Int
+    var latitude: Double
+    var longitude: Double
     var imageURLs: [String]
-    let latitude: Double
-    let longitude: Double
     let address: String
     let city: String
     let state: String
-    
-    let title: String
-    var rating: Double
-    
-    var features: [ListingFeatures]
-    var amenities: [ListingAmenities]
+    let features: [ListingFeatures]
+    let amenities: [ListingAmenities]
     let type: ListingType
+    let title: String
+    
 }
 
 enum ListingFeatures: Int, Codable, Identifiable, Hashable {
-    var id: Int {return self.rawValue}
     case selfCheckIn
     case superHost
     
@@ -44,7 +40,7 @@ enum ListingFeatures: Int, Codable, Identifiable, Hashable {
         case .superHost: return "medal"
         }
     }
-    
+        
     var title: String {
         switch self {
         case .selfCheckIn: return "Self check-in"
@@ -54,14 +50,17 @@ enum ListingFeatures: Int, Codable, Identifiable, Hashable {
     
     var subtitle: String {
         switch self {
-        case .selfCheckIn: return "Check your self in with the keypad"
-        case .superHost: return "Superhosts are experienced, highly rated hosts who are commited to proiding greate stars for guests"
+        case .selfCheckIn:
+            return "Check yourself in with the keypad."
+        case .superHost:
+            return "Superhosts are experienced, highly rated hosts who are commited to providing greate stars for guests."
         }
     }
+    
+    var id: Int { return self.rawValue }
 }
 
 enum ListingAmenities: Int, Codable, Identifiable, Hashable {
-    var id: Int {return self.rawValue}
     case pool
     case kitchen
     case wifi
@@ -75,12 +74,12 @@ enum ListingAmenities: Int, Codable, Identifiable, Hashable {
         switch self {
         case .pool: return "Pool"
         case .kitchen: return "Kitchen"
-        case .wifi: return "wifi"
-        case .laundry: return "laundry"
-        case .tv: return "tv"
-        case .alarmSystem: return "alarmSystem"
-        case .office: return "office"
-        case .balcony: return "balcony"
+        case .wifi: return "Wifi"
+        case .laundry: return "Laundry"
+        case .tv: return "TV"
+        case .alarmSystem: return "Alarm System"
+        case .office: return "Office"
+        case .balcony: return "Balcony"
         }
     }
     
@@ -96,10 +95,12 @@ enum ListingAmenities: Int, Codable, Identifiable, Hashable {
         case .balcony: return "building"
         }
     }
+    
+    var id: Int { return self.rawValue }
 }
 
+
 enum ListingType: Int, Codable, Identifiable, Hashable {
-    var id: Int {return self.rawValue}
     case apartment
     case house
     case townhouse
@@ -113,4 +114,5 @@ enum ListingType: Int, Codable, Identifiable, Hashable {
         case .villa: return "Villa"
         }
     }
+    var id: Int {return self.rawValue}
 }
