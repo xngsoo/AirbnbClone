@@ -27,6 +27,7 @@
 		F3B65B332BD6384800A09A74 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B322BD6384800A09A74 /* ExploreService.swift */; };
 		F3B65B352BD644D000A09A74 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B342BD644D000A09A74 /* Regions.swift */; };
 		F3B65B372BD7653700A09A74 /* ListingMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B362BD7653700A09A74 /* ListingMapView.swift */; };
+		F3B65B392BD76F6F00A09A74 /* ListingMapPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B382BD76F6F00A09A74 /* ListingMapPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		F3B65B322BD6384800A09A74 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 		F3B65B342BD644D000A09A74 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
 		F3B65B362BD7653700A09A74 /* ListingMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingMapView.swift; sourceTree = "<group>"; };
+		F3B65B382BD76F6F00A09A74 /* ListingMapPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingMapPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 				F39CA26A2BCE34DF0056013B /* ListingItemView.swift */,
 				F39CA26E2BCE46180056013B /* ListingDetailView.swift */,
 				F3B65B362BD7653700A09A74 /* ListingMapView.swift */,
+				F3B65B382BD76F6F00A09A74 /* ListingMapPreviewView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				F3B65B2A2BD62B9400A09A74 /* Listing.swift in Sources */,
 				F3B65B242BD624BA00A09A74 /* WishlistView.swift in Sources */,
 				F39CA26D2BCE42510056013B /* SearchAndFilterBar.swift in Sources */,
+				F3B65B392BD76F6F00A09A74 /* ListingMapPreviewView.swift in Sources */,
 				F39CA26F2BCE46180056013B /* ListingDetailView.swift in Sources */,
 				F39CA24F2BCE2CC10056013B /* AirbnbCloneApp.swift in Sources */,
 				F3B65B262BD6261C00A09A74 /* MainTabView.swift in Sources */,

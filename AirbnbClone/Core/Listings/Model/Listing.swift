@@ -28,6 +28,7 @@ struct Listing: Identifiable, Codable, Hashable {
     let amenities: [ListingAmenities]
     let type: ListingType
     let title: String
+    var rating: Double
     
     var coordinate: CLLocationCoordinate2D {
         return .init(latitude: latitude, longitude: longitude)

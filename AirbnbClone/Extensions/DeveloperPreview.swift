@@ -31,7 +31,8 @@ class DeveloperPreview {
             features: [.selfCheckIn, .superHost],
             amenities: [.wifi, .alarmSystem, .balcony, .laundry, .tv],
             type: .villa,
-            title: "Miami Villa"
+            title: "Miami Villa",
+            rating: 4.89
         ),
         .init(
             ownerUid: NSUUID().uuidString,
@@ -51,7 +52,8 @@ class DeveloperPreview {
             features: [.selfCheckIn, .superHost],
             amenities: [.wifi, .alarmSystem, .tv, .kitchen, .office],
             type: .house,
-            title: "Miami Beach House"
+            title: "Miami Beach House",
+            rating: 4.51
         ),
         .init(
             ownerUid: NSUUID().uuidString,
@@ -71,7 +73,8 @@ class DeveloperPreview {
             features: [.selfCheckIn, .superHost],
             amenities: [.wifi, .alarmSystem, .balcony],
             type: .apartment,
-            title: "Beatiful Miami apartment in downtown Brickell"
+            title: "Beatiful Miami apartment in downtown Brickell",
+            rating: 4.92
         ),
         .init(
             ownerUid: NSUUID().uuidString,
@@ -91,7 +94,8 @@ class DeveloperPreview {
             features: [.selfCheckIn, .superHost],
             amenities: [.wifi, .alarmSystem, .pool],
             type: .apartment,
-            title: "Beatiful Los Angeles home in Malibu"
+            title: "Beatiful Los Angeles home in Malibu",
+            rating: 3.91
         ),
         .init(
             ownerUid: NSUUID().uuidString,
@@ -111,7 +115,8 @@ class DeveloperPreview {
             features: [.selfCheckIn, .superHost],
             amenities: [.wifi, .alarmSystem, .balcony],
             type: .apartment,
-            title: "Beatiful Los Angeles home in the Hollywood Hills"
+            title: "Beatiful Los Angeles home in the Hollywood Hills",
+            rating: 4.1
         ),
     ]
 }
