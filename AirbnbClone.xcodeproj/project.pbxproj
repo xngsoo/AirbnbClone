@@ -26,6 +26,7 @@
 		F3B65B312BD637EB00A09A74 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B302BD637EB00A09A74 /* ExploreViewModel.swift */; };
 		F3B65B332BD6384800A09A74 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B322BD6384800A09A74 /* ExploreService.swift */; };
 		F3B65B352BD644D000A09A74 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B342BD644D000A09A74 /* Regions.swift */; };
+		F3B65B372BD7653700A09A74 /* ListingMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B65B362BD7653700A09A74 /* ListingMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		F3B65B302BD637EB00A09A74 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		F3B65B322BD6384800A09A74 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 		F3B65B342BD644D000A09A74 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
+		F3B65B362BD7653700A09A74 /* ListingMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 			children = (
 				F39CA26A2BCE34DF0056013B /* ListingItemView.swift */,
 				F39CA26E2BCE46180056013B /* ListingDetailView.swift */,
+				F3B65B362BD7653700A09A74 /* ListingMapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				F39CA24F2BCE2CC10056013B /* AirbnbCloneApp.swift in Sources */,
 				F3B65B262BD6261C00A09A74 /* MainTabView.swift in Sources */,
 				F3B65B2C2BD6309800A09A74 /* DeveloperPreview.swift in Sources */,
+				F3B65B372BD7653700A09A74 /* ListingMapView.swift in Sources */,
 				F3B65B332BD6384800A09A74 /* ExploreService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
