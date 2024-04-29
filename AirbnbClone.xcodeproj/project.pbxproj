@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F316918F2BDF54EF0046F675 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F316918E2BDF54EF0046F675 /* LoginView.swift */; };
+		F31691912BDF55040046F675 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31691902BDF55040046F675 /* RegistrationView.swift */; };
+		F31691932BDF551B0046F675 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31691922BDF551B0046F675 /* LoginViewModel.swift */; };
+		F31691952BDF552B0046F675 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31691942BDF552B0046F675 /* RegistrationViewModel.swift */; };
+		F31691982BDF57750046F675 /* PrimaryTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31691972BDF57750046F675 /* PrimaryTextFieldModifier.swift */; };
+		F316919A2BDF57C90046F675 /* PrimaryButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31691992BDF57C90046F675 /* PrimaryButtonModifier.swift */; };
 		F39CA24F2BCE2CC10056013B /* AirbnbCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CA24E2BCE2CC10056013B /* AirbnbCloneApp.swift */; };
 		F39CA2512BCE2CC10056013B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39CA2502BCE2CC10056013B /* ContentView.swift */; };
 		F39CA2532BCE2CC10056013B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39CA2522BCE2CC10056013B /* Assets.xcassets */; };
@@ -31,6 +37,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F316918E2BDF54EF0046F675 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F31691902BDF55040046F675 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		F31691922BDF551B0046F675 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F31691942BDF552B0046F675 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		F31691972BDF57750046F675 /* PrimaryTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextFieldModifier.swift; sourceTree = "<group>"; };
+		F31691992BDF57C90046F675 /* PrimaryButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonModifier.swift; sourceTree = "<group>"; };
 		F39CA24B2BCE2CC10056013B /* AirbnbClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirbnbClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39CA24E2BCE2CC10056013B /* AirbnbCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbCloneApp.swift; sourceTree = "<group>"; };
 		F39CA2502BCE2CC10056013B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +78,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F31691872BDF54340046F675 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F31691882BDF54580046F675 /* Manager */,
+				F31691892BDF545A0046F675 /* Model */,
+				F316918A2BDF545E0046F675 /* Protocols */,
+				F316918D2BDF54650046F675 /* Serivce */,
+				F316918B2BDF54610046F675 /* Views */,
+				F316918C2BDF54630046F675 /* ViewModels */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F31691882BDF54580046F675 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		F31691892BDF545A0046F675 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F316918A2BDF545E0046F675 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F316918B2BDF54610046F675 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F316918E2BDF54EF0046F675 /* LoginView.swift */,
+				F31691902BDF55040046F675 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F316918C2BDF54630046F675 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F31691922BDF551B0046F675 /* LoginViewModel.swift */,
+				F31691942BDF552B0046F675 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F316918D2BDF54650046F675 /* Serivce */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Serivce;
+			sourceTree = "<group>";
+		};
+		F31691962BDF57660046F675 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				F31691972BDF57750046F675 /* PrimaryTextFieldModifier.swift */,
+				F31691992BDF57C90046F675 /* PrimaryButtonModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		F39CA2422BCE2CC00056013B = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +205,7 @@
 		F39CA25E2BCE2CE10056013B /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				F31691872BDF54340046F675 /* Authentication */,
 				F39CA2702BCE46630056013B /* Components */,
 				F39CA2612BCE2D340056013B /* Explore */,
 				F39CA2622BCE2D3E0056013B /* Listings */,
@@ -147,6 +228,7 @@
 		F39CA2602BCE2D0D0056013B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				F31691962BDF57660046F675 /* Modifiers */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -334,7 +416,9 @@
 			files = (
 				F39CA2722BCE469C0056013B /* ListingImageCarouselView.swift in Sources */,
 				F3B65B202BD6229A00A09A74 /* ProfileView.swift in Sources */,
+				F31691932BDF551B0046F675 /* LoginViewModel.swift in Sources */,
 				F3B65B222BD623F000A09A74 /* ProfileOptionRowView.swift in Sources */,
+				F31691912BDF55040046F675 /* RegistrationView.swift in Sources */,
 				F39CA2742BCE60440056013B /* DestinationSearchView.swift in Sources */,
 				F39CA2512BCE2CC10056013B /* ContentView.swift in Sources */,
 				F39CA26B2BCE34DF0056013B /* ListingItemView.swift in Sources */,
@@ -343,12 +427,16 @@
 				F39CA2692BCE2E220056013B /* ExploreView.swift in Sources */,
 				F3B65B2A2BD62B9400A09A74 /* Listing.swift in Sources */,
 				F3B65B242BD624BA00A09A74 /* WishlistView.swift in Sources */,
+				F31691952BDF552B0046F675 /* RegistrationViewModel.swift in Sources */,
 				F39CA26D2BCE42510056013B /* SearchAndFilterBar.swift in Sources */,
+				F316919A2BDF57C90046F675 /* PrimaryButtonModifier.swift in Sources */,
 				F3B65B392BD76F6F00A09A74 /* ListingMapPreviewView.swift in Sources */,
 				F39CA26F2BCE46180056013B /* ListingDetailView.swift in Sources */,
+				F316918F2BDF54EF0046F675 /* LoginView.swift in Sources */,
 				F39CA24F2BCE2CC10056013B /* AirbnbCloneApp.swift in Sources */,
 				F3B65B262BD6261C00A09A74 /* MainTabView.swift in Sources */,
 				F3B65B2C2BD6309800A09A74 /* DeveloperPreview.swift in Sources */,
+				F31691982BDF57750046F675 /* PrimaryTextFieldModifier.swift in Sources */,
 				F3B65B372BD7653700A09A74 /* ListingMapView.swift in Sources */,
 				F3B65B332BD6384800A09A74 /* ExploreService.swift in Sources */,
 			);
